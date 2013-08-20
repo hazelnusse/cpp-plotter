@@ -16,6 +16,7 @@ After cloning this repository, execute the following commands:
 To build the example application, run:
 
         $ mkdir build
+        $ cd build
         $ cmake ..
         $ make
         $ ./source/plotapp

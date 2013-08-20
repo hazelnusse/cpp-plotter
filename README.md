@@ -8,7 +8,15 @@ time, change the plot title by clicking on it, or change legends.
 
 After cloning this repository, execute the following commands:
 
-  $ git submodule init
-  $ git submodule update
-  $ cd qcustomplot
-  $ ./run-amalgamate.sh
+        $ git submodule init
+        $ git submodule update
+        $ cd qcustomplot
+        $ ./run-amalgamate.sh
+
+To build the example application, run:
+
+        $ mkdir build
+        $ cmake ..
+        $ make
+        $ ./source/plotapp
+

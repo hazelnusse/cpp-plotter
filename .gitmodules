@@ -1,0 +1,3 @@
+[submodule "qcustomplot"]
+	path = qcustomplot
+	url = git://gitorious.org/qcustomplot/qcustomplot.git
